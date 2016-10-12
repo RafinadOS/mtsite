@@ -1,17 +1,3 @@
 p {
-	font-size: 18px;
-	color: #000;
-}
-.wrapper {
-	background: #000;
-}
-
-body,html {
-	font-size: 28px;
-	color: #999;
-	background: #ccc;
-}
-.footer {
-	display:block;
-	background: red;
+	margin: 0;
 }

@@ -1,0 +1,34 @@
+
+
+@colorDefault: 			red; // цвет по умолчанию
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+	background: lighten(@colorDefault, 30%);
+}
+
+
+.header {
+	clear: both;
+	display: block;
+	height: 100px;
+	background: tomato;
+	&__logo {
+		display: inline-block;
+		width: 200px;
+		height: 40px;
+		background: green;
+		&-sm {
+			width: 120px;
+			height: 30px;
+		}
+
+	}
+	&__block {
+		display: inline-block;
+	}
+}
+

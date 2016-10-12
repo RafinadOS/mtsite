@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ff9999;
+}
+.header {
+  clear: both;
+  display: block;
+  height: 100px;
+  background: tomato;
+}
+.header__logo {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background: green;
+}
+.header__logo-sm {
+  width: 120px;
+  height: 30px;
+}
+.header__block {
+  display: inline-block;
+}
